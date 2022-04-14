@@ -1,5 +1,5 @@
 export KAFKA_HEAP_OPTS="-Xmx1000M -Xms1000M"
-export KAFKA_OPTS='-javaagent:~/Kafka/kafka_2.12-3.1.0/libs/jmx_prometheus_javaagent-0.13.0.jar=7075:~/Kafka/kafka_2.12-3.1.0/config/sample_jmx_exporter.yml'
+export KAFKA_OPTS='-javaagent:~/Kafka/kafka_2.12-3.1.0/libs/jmx_prometheus_javaagent-0.16.1.jar=7075:~/Kafka/kafka_2.12-3.1.0/config/sample_jmx_exporter.yml'
 export JMX_PORT=7081
 export CONNECT_PRODUCER_BOOTSTRAP_SERVERS="${KAFKA_URL}"
 export CONNECT_PRODUCER_SECURITY_PROTOCOL="SSL"
